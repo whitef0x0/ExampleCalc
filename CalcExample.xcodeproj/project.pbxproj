@@ -14,6 +14,7 @@
 		84CFD4AE1D3F35B400B1C957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CFD4AC1D3F35B400B1C957 /* LaunchScreen.storyboard */; };
 		84CFD4B91D3F35B400B1C957 /* CalcExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD4B81D3F35B400B1C957 /* CalcExampleTests.swift */; };
 		84CFD4C41D3F35B400B1C957 /* CalcExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD4C31D3F35B400B1C957 /* CalcExampleUITests.swift */; };
+		84CFD4D61D40220000B1C957 /* ExtraCommandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD4D51D40220000B1C957 /* ExtraCommandButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84CFD4BF1D3F35B400B1C957 /* CalcExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CFD4C31D3F35B400B1C957 /* CalcExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcExampleUITests.swift; sourceTree = "<group>"; };
 		84CFD4C51D3F35B400B1C957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CFD4D51D40220000B1C957 /* ExtraCommandButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtraCommandButton.swift; path = ../ExtraCommandButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		84CFD4A21D3F35B400B1C957 /* CalcExample */ = {
 			isa = PBXGroup;
 			children = (
+				84CFD4D51D40220000B1C957 /* ExtraCommandButton.swift */,
 				84CFD4A31D3F35B400B1C957 /* AppDelegate.swift */,
 				84CFD4A51D3F35B400B1C957 /* ViewController.swift */,
 				84CFD4A71D3F35B400B1C957 /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				84CFD4A61D3F35B400B1C957 /* ViewController.swift in Sources */,
 				84CFD4A41D3F35B400B1C957 /* AppDelegate.swift in Sources */,
+				84CFD4D61D40220000B1C957 /* ExtraCommandButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				84CFD4CA1D3F35B400B1C957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CFD4CB1D3F35B400B1C957 /* Build configuration list for PBXNativeTarget "CalcExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				84CFD4CD1D3F35B400B1C957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CFD4CE1D3F35B400B1C957 /* Build configuration list for PBXNativeTarget "CalcExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				84CFD4D01D3F35B400B1C957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
